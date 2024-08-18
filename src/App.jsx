@@ -3,7 +3,7 @@ import { useState } from "react";
 import SeeData from "./component/SeeData";
 
 const App = () => {
-  const [formData, setFormData] = useState({
+  const [formData,setFormData] = useState({
     firstname: "",
     lastname: "",
     email: "",
